@@ -18,14 +18,14 @@ local = "127.0.0.1"
 
 def block():
     if current < end:
-        print("Blocked sites")
+        print("Sites Blocked")
         with open(hostfile_path,'r+') as hostfile:
             file_content = hostfile.read()
             for site in sites:
                 if site not in file_content:
                     hostfile.write(local+" "+site+"\n")
     else:
-        print("sites unblocked")
+        print("Sites Unblocked")
         with open(hostfile_path,'r+') as hostfile:
             lines = hostfile.readline
             hostfile.seek(0)
