@@ -1,5 +1,5 @@
 # Website_Blocker
-This python script blocks the sites whose domain names are provided.
+This python script blocks the sites whose domain names are provided.<br/>
 There are two files one for linux/mac and other for windows.
 
 # To Run
